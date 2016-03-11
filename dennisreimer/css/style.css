@@ -1,0 +1,133 @@
+/*
+Theme Name: Simple Parallax Website
+Description: Simple Parallax Scrolling Effect
+Author: Samuel Dalusung
+*/
+
+/*= GENERAL STYLING
+--------------------------------------------------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 { 
+    font-family:"Open Sans";
+	font-weight:bold;
+	font-size: 55px;
+	text-align: left;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+   font-family:"Open Sans";
+   font-weight: normal;
+   font-size: 40px;
+   text-align: left;
+   color: #fff;
+   margin: 0;
+	padding: 0;
+}
+
+h3 {
+   font-family: 'Open Sans';
+   font-weight: normal;
+   font-size: 16px;
+   text-align: left;
+   margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+p {
+	font-family: 'Open Sans';
+   font-weight: normal;
+   font-size: 18px;
+   text-align: left;
+   margin: 20px 0;
+	padding: 10px;
+	z-index: 1;
+	position: relative;
+}
+
+
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.content2{ margin: 5% auto; width: 960px; }
+.clear { clear: both; }
+
+/*= HEADER & NAVIGATION
+--------------------------------------------------------*/
+
+#header { 
+	width: 100%; 
+	background: url('../img/header-bg.png'); 
+	height: 100px; 	
+	position: fixed;
+	margin-top: 0px;
+}
+
+#nav { width: 410px; float: right; margin-top: 30px; } /* Right Text in Header */
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 30px; color: #fff; font-family:'Open Sans'; font-weight: bold; }	/*left Text in Header*/
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;	
+}
+
+#nav li{
+	margin-top: 9px;	
+	float: left;
+	padding-left: 21px;
+}
+
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Open Sans'; }
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1;  }
+
+#divider { background: url('../img/divider.jpg')no-repeat; width: 800px; height: 145px; margin-top: 200px; margin-left: auto; margin-right: auto; }
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1, #slide2{ width: 100%; }
+#slide1{
+	background:url('../img/back1.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#slide2{
+	background-color: #fff;
+	color: #333333;
+	height: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 200px 0;
+}
+
+#slideend{
+	background:url('../img/back1.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 400px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+
+/*= FOOTER 
+--------------------------------------------------------*/
+
+#copyright  { color: #fff; font-family:"Open Sans";  font-size: 14px; margin-top: -50px; text-align: center;  }
+#copyright  a { text-decoration: none; color: #fff;  }
